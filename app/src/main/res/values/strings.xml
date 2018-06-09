@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">App Empréstimo</string>
+    <string name="cpf">CPF :</string>
+    <string name="nome">Nome :</string>
+    <string name="endereco">Endereço :</string>
+    <string name="complemento">Complemento :</string>
+    <string name="bairro">Bairro :</string>
+    <string name="cidade">Cidade :</string>
+    <string name="estado">Estado :</string>
+    <string name="cep">CEP :</string>
+    <string name="telefone">Telefone :</string>
+    <string name="simular">Simular</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="finalizar">Finalizar</string>
+    <string name="parcelas">Parcelas :</string>
+    <string name="valor_parcela">Valor Parcela :</string>
+    <string name="valor_emprestimo">Valor Empréstimo :</string>
+</resources>

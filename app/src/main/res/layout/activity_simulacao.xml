@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SimulacaoActivity">
+
+
+    <TextView
+        android:id="@+id/labelValorEmprestimo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/valor_emprestimo" />
+
+    <EditText
+        android:id="@+id/textoValorEmprestimo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/labelParcela"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/parcelas" />
+
+    <EditText
+        android:id="@+id/textoParcela"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/botaoAdicionar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="simularEmprestimo"
+            android:text="@string/simular" />
+
+        <Button
+            android:id="@+id/botaoCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="cancelarSimulacao"
+            android:text="@string/cancelar" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/labelResultadoSimulacao"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/botaoConcluir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="concluirEmprestimo"
+            android:text="@string/finalizar"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+</LinearLayout>

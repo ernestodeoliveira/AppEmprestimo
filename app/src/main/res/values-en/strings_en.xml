@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Loan</string>
+    <string name="cpf">ID :</string>
+    <string name="nome">Name :</string>
+    <string name="endereco">Address :</string>
+    <string name="complemento">Address line 2 :</string>
+    <string name="bairro">Neighborhood :</string>
+    <string name="cidade">City :</string>
+    <string name="estado">State :</string>
+    <string name="cep">Zip code :</string>
+    <string name="telefone">Phone :</string>
+    <string name="simular">Simulate</string>
+    <string name="cancelar">Cancel</string>
+    <string name="finalizar">Finalize</string>
+    <string name="parcelas">Installments :</string>
+    <string name="valor_parcela">Installment Amount :</string>
+    <string name="valor_emprestimo">Amount :</string>
+</resources>
